@@ -1,0 +1,10 @@
+<Module>
+<ModulePrefs title="OVP Gadget">
+<Require feature="emb-gadget"/>
+</ModulePrefs>
+<Content type="html">
+<![CDATA[
+<head> <<eta charset="UTF-8"> <title>Socail Gadget</title><script src="https://tools.mercedes-benz.co.uk/retailer/new-retail/gadgets/south-west-social/tabs.js"></script> <link href="https://tools.mercedes-benz.co.uk/retailer/new-retail/gadgets/south-west-social/styles.css" rel="stylesheet" type="text/css" /> </head> <body> <div id="link1" onclick="showHide('container1');">Blog</div> <div id="link2" onclick="showHide('container2'); return false;">Twitter</div> <div id="container1"> <iframe src="https://www.mercedes-benzsouthwest.co.uk/about/news-and-events/" style="width:320px; height:544px;"></iframe> </div> <div id="container2"><a class="twitter-timeline" href="https://twitter.com/MBSW" data-widget-id="530333467330887680">Tweets by @MBSW</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div> </body>
+]]>
+</Content>
+</Module>
